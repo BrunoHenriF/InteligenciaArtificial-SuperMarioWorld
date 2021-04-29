@@ -1,7 +1,5 @@
 # Projeto 2: Super Mario World - Inteligência Artificial - 2021.Q1
 
-***VÍDEO DE APRESENTAÇÃO***: 
-
 Essas instruções referem-se ao código do projeto da disciplina de Inteligência Artificial ministrada pelo professor Fabrício Olivetti na Universidade Federal do ABC.
 
 O projeto trata-se de um programa em python de uma rede neural que joga Super Mario World.
