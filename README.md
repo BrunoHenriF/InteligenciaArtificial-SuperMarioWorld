@@ -18,6 +18,3 @@ Já o arquivo play.py contém a rede neural já treinada. Quando executado, a re
 - Biblioteca Retro Gym
 - Biblioteca NEAT
 - Biblioteca Open cv
-
-
-Instruções e código escritos por Bruno Henrique Ferreira, aluno da UFABC, RA:11201722616
