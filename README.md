@@ -8,10 +8,9 @@ Para isso, utiliza-se a biblioteca gym retro para emular o jogo e a biblioteca n
 Há dois arquivos de execução: train.py e play.py.
 
 O train.py é o arquivo que contém o código de treino da rede neural, é nele onde encontra-se a função fitness, que é utilizada para avaliar cada rede neural e sua evolução durante a rodada.
-Além disso, é possível selecionar o checkpoint que se deseja rodar, cada checkpoint é referente a uma geração da rede neural gerada durante o treino que alcançou o genoma selecionado para o arquivo play.py.
-Quando executado, será...
+Além disso, é possível selecionar o checkpoint que se deseja rodar, cada checkpoint é referente a uma geração da rede neural gerada durante o treino que alcançou o genoma selecionado para o arquivo play.py. Os checkpoints são gerados automaticamente pelo algoritmo conforme o treinamento avança.
 
-Já o arquivo play.py contém a rede neural já treinada. Quando executado, a rede neural treinada e selecionada para o teste será exibida em ação na fase Yoshi Island 2. 
+Já o arquivo play.py utiliza o checkpoint da rede treinada para completar a fase (rede_treinada.pkl). Quando executado, a rede neural treinada e selecionada para o teste será exibida em ação na fase Yoshi Island 2. 
 
 ## Requisítos para a execução dos algoritmos:
 
